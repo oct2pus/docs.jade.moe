@@ -6,20 +6,29 @@
     <description>Recent content on JadeBot&#39;s JadeDocs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2019 12:00:10 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 12:00:10 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Wiki</title>
-      <link>/docs/wiki/</link>
-      <pubDate>Tue, 23 Jul 2019 12:00:10 -0500</pubDate>
+      <title>Command List</title>
+      <link>/docs/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/wiki/</guid>
-      <description>Summary Wiki searches for articles on the MSPA Wiki.
-Usage Default wiki JadeBot needs an input to read a wiki article.
-wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to the article.</description>
+      <guid>/docs/commands/</guid>
+      <description>A quick list of all possible commands JadeBot responds to!
+ ==&amp;gt; About Avatar Booru Command Commands Credits Discord Dog Help Invite Markov MSPA OTP Pester Ship Wiki  </description>
+    </item>
+    
+    <item>
+      <title>Tips &amp; Tricks</title>
+      <link>/docs/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/tips/</guid>
+      <description>Command Correction JadeBot now takes commands ==&amp;gt;LikeThis like most other discord bots, but she displays a helpful message if you accidentally write it ==&amp;gt; LikeThis.
+Fake Pesterlogs When you enter an empty ==&amp;gt;, JadeBot will say a line randomly generated using all of Jade&amp;rsquo;s Pesterlogs.</description>
     </item>
     
     <item>
@@ -30,7 +39,7 @@ wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to 
       <guid>/docs/avatar/</guid>
       <description>Summary Avatar grabs a picture of a user&amp;rsquo;s avatar. Their actual username and discord tag will display below.
 Usage Default ==&amp;gt;avatar JadeBot displays a picture of your own avatar.
-Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of an @&amp;rsquo;d user&amp;rsquo;s avatar.</description>
+Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of the @&amp;rsquo;d user&amp;rsquo;s avatar.</description>
     </item>
     
     <item>
@@ -53,6 +62,30 @@ Usage Default ==&amp;gt;dog JadeBot shows a random picture of a dog.
       <guid>/docs/mspa/</guid>
       <description>Summary Booru grabs a random image from mspabooru.org. JadeBot will respond to this command from both ==&amp;gt;mspa and ==&amp;gt;booru. Images will always be pulled from the 25 most recent images from that search result.
 The Source link will link to the referenced source in the mspabooru.org post. Some sources will be to dead links, some sources may be NSFW; Art without a source will instead lead to the mspabooru page.</description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>/docs/wiki/</link>
+      <pubDate>Tue, 23 Jul 2019 12:00:10 -0500</pubDate>
+      
+      <guid>/docs/wiki/</guid>
+      <description>Summary Wiki searches for articles on the MSPA Wiki.
+Usage Default wiki JadeBot needs an article search for; she cannot search without input.
+wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to the article.</description>
+    </item>
+    
+    <item>
+      <title>Other Commands</title>
+      <link>/docs/other/</link>
+      <pubDate>Wed, 24 Jul 2019 12:00:10 -0500</pubDate>
+      
+      <guid>/docs/other/</guid>
+      <description>Summary JadeBot has a lot of simple commands that don&amp;rsquo;t require any input from you. Here is a list of them and what they do.
+Usage About ==&amp;gt;about ==&amp;gt;credits About displays a short accreditation blurb for JadeBot. You can also call it from credits.
+Discord ==&amp;gt;discord Discord displays a link to the JadeBot discord server.
+Invite ==&amp;gt;invite Invite displays a code to invite JadeBot to your discord server.
+Pester ==&amp;gt;pester ==&amp;gt;markov Pester is an alternative to calling an empty ==&amp;gt; to display a fake pesterlog built from Jade&amp;rsquo;s dialog.</description>
     </item>
     
   </channel>
