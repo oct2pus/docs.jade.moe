@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MSPA/Booru - JadeBot&#39;s JadeDocs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6aa5eecd4ca7c47fb2ca9b0775a7bd787e3e64a2eadf0fef8c9f924498f49127.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-invite">
+      <a href="https://discordapp.com/oauth2/authorize?client_id=331204502277586945&amp;scope=bot&amp;permissions=379968">
+        <span>Invite</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-discord">
+      <a href="https://discord.gg/PFCGhJQ">
+        <span>Discord</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-github">
+      <a href="https://github.com/oct2pus/jadebot">
+        <span>Github</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentation">
+      <a href="/docs/">
+        <span>Documentation</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-invite">
+      <a href="https://discordapp.com/oauth2/authorize?client_id=331204502277586945&amp;scope=bot&amp;permissions=379968">
+        <span>Invite</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-discord">
+      <a href="https://discord.gg/PFCGhJQ">
+        <span>Discord</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-github">
+      <a href="https://github.com/oct2pus/jadebot">
+        <span>Github</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentation">
+      <a href="/docs/">
+        <span>Documentation</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="/docs/wiki/">Wiki</a>
+    </li>
+    
+    <li class="">
+      <a href="/docs/avatar/">Avatar</a>
+    </li>
+    
+    <li class="">
+      <a href="/docs/dog/">Dog</a>
+    </li>
+    
+    <li class="active ">
+      <a href="/docs/mspa/">MSPA/Booru</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">MSPA/Booru</h1>
+<div class="content">
+  
+
+<h2 id="summary">Summary</h2>
+
+<p>Booru grabs a random image from <a href="http://mspabooru.org">mspabooru.org</a>. JadeBot will respond to this command from both <code>==&gt;mspa</code> and <code>==&gt;booru</code>. Images will always be pulled from the 25 most recent images from that search result.</p>
+
+<p>The Source link will link to the referenced source in the mspabooru.org post. <em>Some sources will be to dead links,</em> <strong><em>some sources may be NSFW</em></strong>; <em>Art without a source will instead lead to the mspabooru page</em>.</p>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="default">Default</h3>
+<div class="highlight"><pre class="chroma">==&gt;mspa
+==&gt;booru</pre></div>
+<p><img src="/images/mspa/mspadefault.png" alt="A bust of Epilogues!Karkat in the Candy timeline, drawn on paper in pencil. He's pretty hot." /></p>
+
+<p><sub><a href="https://twitter.com/catlateral_/status/1126580856515112962">Art by Catlateral</a></sub></p>
+
+<p>Without any arguments after the command, JadeBot will display a recent image from <a href="http://mspabooru.com">mspabooru.com</a>.</p>
+
+<h3 id="arguments">Arguments</h3>
+<div class="highlight"><pre class="chroma">==&gt;mspa your art_tags here -but_not_these
+==&gt;booru your art_tags here -but_not_these</pre></div>
+<p><img src="/images/mspa/mspatags.png" alt="A bust of Jade Harley in a cute, space themed dress with an atom choker. The picture only uses whites, blacks and greens." /></p>
+
+<p><sub style="text-align: center"><a href="https://cndmnts.tumblr.com/post/99041498880">Art by cndmnts, previously known as nenekofox</a></sub></p>
+
+<p>Every word you write after the initial command specifies a corresponding tag on the booru. <em>Spaces</em> denote seperate <em>tags</em>, and <em>underscores</em> specify <em>tags</em> that contain multiple words. A <em>-tag</em> specifies you do not want this tag to appear in the search result. You should be able to perform every <em>tag you</em> can on a *booru on jadebot. <a href="https://github.com/oct2pus/jadebot/issues">Please submit a bug if you cannot</a>.</p>
+
+<p>Note: These do not need to be ordered, as shown in the picture above, you can add a normal tag after a <em>-tag</em>. Some tags may be shortened (most character names do not need to be spelled out in full, e.g. you can just add <code>jade</code> to get the same results as <code>jade_harley</code>. Davepeta is a notable exception, and is only tagged as <code>Davepetasprite^2</code>.) An extensive and full list of <em>aliases</em> can be found <a href="http://mspabooru.com/index.php?page=alias&amp;s=list">here</a>.</p>
+
+<h3 id="arguments-relating-to-shipping">Arguments relating to Shipping</h3>
+<div class="highlight"><pre class="chroma">==&gt;mspa red_knight_district
+==&gt;booru red_knight_district</pre></div>
+<p><img src="/images/mspa/mspashipping.png" alt="A picture of Jade and Aradia holding guns and running away from an explosion. It's dope as fuck." /></p>
+
+<p><sub style="text-align: center"><a href="https://inverts.tumblr.com/post/97192678100/i-signed-up-for-the-rare-pair-fest-this-year-was">Art by inverts</a></sub></p>
+
+<p>Unfortunately, many common ship names are not used on mspabooru; instead many long and complicated ship names are used. There are a few exceptions, including <code>rosemary</code> for rosekan, and <code>grimdorks</code> for johnrose. Some are very clever, some are very lame, almost all of them are word plays.</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/1IR5mmxNxgwAqH0_VENC0KOaTgSXE_azPts8qwqz9xMk/edit#gid=0">For a (mostly) complete list, please see this google doc</a>.</p>
+
+<p>Very few OT3s and polyships have ship names, there are exceptions like <code>rule63_twilight_saga</code> for jaderosekan, and even that does not include all submitted art for the ship. Most of them will include <code>multishipping</code> as well as their individual names, you will have to live with the inaccuracy unfortunately.</p>
+
+<p><img src="/images/mspa/mspamultiship.png" alt="a short comic of Jade having her hair braided by Dave and Karkat." /></p>
+
+<p><sub style="text-align: center;"><a href="https://nymphicus.tumblr.com/post/143439479432/i-love-them-so-much">Art by nymphicus</a></sub></p>
+
+<h3 id="banned-arguments">Banned Arguments</h3>
+<div class="highlight"><pre class="chroma">==&gt;mspa incest gore
+==&gt;booru incest gore</pre></div>
+<p><img src="/images/mspa/mspabannedtags.png" alt="A search for dersecest and rating:questionable. It returns no results despite this being a valid search with results on mspabooru." /></p>
+
+<p>JadeBot has a list of &ldquo;banned&rdquo; tags, some are for discord&rsquo;s censor (you may not display nsfw content outside of nsfw marked channels.), some are personal morality judgements. These may change, grow or shrink in the future. The banlist does not currently change depending on if the channel is safe for work or not safe for work, but may in the future.</p>
+
+<h5 id="banlist">Banlist</h5>
+
+<ul>
+<li>3d - Lots of game screenshots. High probability to spam front page when new art is added.*</li>
+<li>*cest - The asterisk specifies that this is a wildcard search, almost all incest tags end in &lsquo;cest&rsquo;, and the ones that don&rsquo;t are also tagged with &lsquo;incest&rsquo;.</li>
+<li>gore - Inappropriate for sfw channels.</li>
+<li>erasure - The ship tag for Dirk x Kanaya.</li>
+<li>vomit - Inappropriate for sfw channels.</li>
+<li>bondage - Inappropriate for sfw channels.</li>
+<li>dubcon - Inappropriate for sfw channels.</li>
+<li>mind_control - undertagged content, rarely appropriate for sfw channels.</li>
+<li>undergarments - undertagged content, rarely appropriate for safe for work channels.</li>
+<li>rating:questionable - Cheesecake/Beefcake style content, no privates are shown but often implies such content through cameltoes or erect nipples through clothing. Not appropriate for safe for work channels.</li>
+<li>rating:explicit - Explicit sexual content. Not allowed on mspabooru, but included for futureproofing reasons. Not appropriate for safe for work channels.</li>
+<li>deleteme - Content flagged for moderators to remove, mostly filled with art intentionally designed to be offensive or hurtful to others, as well as outright pornography. both of which make it worthy of banning.</li>
+</ul>
+
+<p><sub>* I am open for removing this ban, so this may be removed in the future.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li>JadeBot is a fan project and is not affiliated with WhatPumpkin</li>
+            <li>|</li>
+            <li class="zerostatic">Hugo Whisper Theme by <a href="https://www.zerostatic.io">zerostatic</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.bf1e1f7ae8e03db5f012356e825843facdff51c0a559cb0d27fe2bbe1db405c2.js"></script>
+  
+</body>
+
+</html>

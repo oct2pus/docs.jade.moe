@@ -45,5 +45,15 @@ Usage Default ==&amp;gt;dog JadeBot shows a random picture of a dog.
 2 Arguments ==&amp;gt;dog specific breed Typing a breed in full will narrow your search to only those types of dogs.</description>
     </item>
     
+    <item>
+      <title>MSPA/Booru</title>
+      <link>/docs/mspa/</link>
+      <pubDate>Mon, 22 Jul 2019 12:00:10 -0500</pubDate>
+      
+      <guid>/docs/mspa/</guid>
+      <description>Summary Booru grabs a random image from mspabooru.org. JadeBot will respond to this command from both ==&amp;gt;mspa and ==&amp;gt;booru. Images will always be pulled from the 25 most recent images from that search result.
+The Source link will link to the referenced source in the mspabooru.org post. Some sources will be to dead links, some sources may be NSFW; Art without a source will instead lead to the mspabooru page.</description>
+    </item>
+    
   </channel>
 </rss>
