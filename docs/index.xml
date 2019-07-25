@@ -84,8 +84,7 @@ wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to 
       <description>Summary JadeBot has a lot of simple commands that don&amp;rsquo;t require any input from you. Here is a list of them and what they do.
 Usage About ==&amp;gt;about ==&amp;gt;credits About displays a short accreditation blurb for JadeBot. You can also call it from credits.
 Discord ==&amp;gt;discord Discord displays a link to the JadeBot discord server.
-Invite ==&amp;gt;invite Invite displays a code to invite JadeBot to your discord server.
-Pester ==&amp;gt;pester ==&amp;gt;markov Pester is an alternative to calling an empty ==&amp;gt; to display a fake pesterlog built from Jade&amp;rsquo;s dialog.</description>
+Help You complete the cycle of stupidity, as you arrive at the very command that brought you here.</description>
     </item>
     
   </channel>
