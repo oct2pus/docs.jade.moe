@@ -6,7 +6,7 @@
     <description>Recent content in Docs on JadeBot&#39;s JadeDocs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2019 12:00:10 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 12:00:10 -0500</lastBuildDate>
     
 	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,8 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/commands/</guid>
-      <description>A quick list of all possible commands JadeBot responds to!
- ==&amp;gt; About Avatar Booru Command Commands Credits Discord Dog Help Invite Markov MSPA OTP Pester Ship Wiki  </description>
+      <description> Summary A quick list of all possible commands JadeBot responds to!
+Commands  ==&amp;gt; About Avatar Booru Command Commands Credits Discord Dog Help Invite Markov MSPA OTP Pester Ship Wiki  </description>
     </item>
     
     <item>
@@ -28,7 +28,8 @@
       
       <guid>/docs/tips/</guid>
       <description>Command Correction JadeBot now takes commands ==&amp;gt;LikeThis like most other discord bots, but she displays a helpful message if you accidentally write it ==&amp;gt; LikeThis.
-Fake Pesterlogs When you enter an empty ==&amp;gt;, JadeBot will say a line randomly generated using all of Jade&amp;rsquo;s Pesterlogs.</description>
+Fake Pesterlogs When you enter an empty ==&amp;gt;, JadeBot will say a line randomly generated using all of Jade&amp;rsquo;s Pesterlogs.
+Responses JadeBot has a bunch of cute responses to various phrases in any message she can read. This cannot currently be turned off, but eventually a server admin may opt-out their server from her responses.</description>
     </item>
     
     <item>
@@ -37,8 +38,7 @@ Fake Pesterlogs When you enter an empty ==&amp;gt;, JadeBot will say a line rand
       <pubDate>Mon, 22 Jul 2019 12:00:10 -0500</pubDate>
       
       <guid>/docs/avatar/</guid>
-      <description>Summary Avatar grabs a picture of a user&amp;rsquo;s avatar. Their actual username and discord tag will display below.
-Usage Default ==&amp;gt;avatar JadeBot displays a picture of your own avatar.
+      <description>Summary Avatar grabs a picture of a user&amp;rsquo;s avatar. Their actual username and discord tag will display below. Usage Default ==&amp;gt;avatar JadeBot displays a picture of your own avatar.
 Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of the @&amp;rsquo;d user&amp;rsquo;s avatar.</description>
     </item>
     
@@ -48,7 +48,7 @@ Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of the @&amp;rsq
       <pubDate>Mon, 22 Jul 2019 12:00:10 -0500</pubDate>
       
       <guid>/docs/dog/</guid>
-      <description>Summary Dog displays pictures of dogs, which are taken from dog.ceo. You can contribute your own dog here. You can find a full list of dogs here.
+      <description>Summary Dog displays pictures of dogs, which are taken from dog.ceo. You can contribute your own dog here. You can find a full list of breeds here.
 Usage Default ==&amp;gt;dog JadeBot shows a random picture of a dog.
 1 Argument ==&amp;gt;dog generalized_breed JadeBot will show dogs from a generalized category.
 2 Arguments ==&amp;gt;dog specific breed Typing a breed in full will narrow your search to only those types of dogs.</description>
@@ -65,14 +65,25 @@ The Source link will link to the referenced source in the mspabooru.org post. So
     </item>
     
     <item>
+      <title>Ship/otp</title>
+      <link>/docs/ship/</link>
+      <pubDate>Thu, 25 Jul 2019 12:00:10 -0500</pubDate>
+      
+      <guid>/docs/ship/</guid>
+      <description>Summary Ship ranks how canon your OTP is. You can call it from either `ship` or `otp`.
+Usage Default ==&amp;gt;ship ==&amp;gt;otp JadeBot cannot rate what does not exist. JadeBot needs some input to for her to judge canonicity.
+Arguments ==&amp;gt;ship yourshiphere ==&amp;gt;otp yourshiphere JadeBot will decree how likely something will be canon, from 0 to 10.</description>
+    </item>
+    
+    <item>
       <title>Wiki</title>
       <link>/docs/wiki/</link>
       <pubDate>Tue, 23 Jul 2019 12:00:10 -0500</pubDate>
       
       <guid>/docs/wiki/</guid>
-      <description>Summary Wiki searches for articles on the MSPA Wiki.
+      <description>Summary Wiki searches for articles on the [MSPA Wiki](https://mspaintadventures.fandom.com/wiki/MS_Paint_Adventures_Wiki).
 Usage Default wiki JadeBot needs an article search for; she cannot search without input.
-wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to the article.</description>
+Arguments wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to the article.</description>
     </item>
     
     <item>
@@ -81,7 +92,7 @@ wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to 
       <pubDate>Wed, 24 Jul 2019 12:00:10 -0500</pubDate>
       
       <guid>/docs/other/</guid>
-      <description>Summary JadeBot has a lot of simple commands that don&amp;rsquo;t require any input from you. Here is a list of them and what they do.
+      <description>Summary JadeBot has a lot of simple commands that don&#39;t require any input from you. Here is where you can find what they do.
 Usage About ==&amp;gt;about ==&amp;gt;credits About displays a short accreditation blurb for JadeBot. You can also call it from credits.
 Discord ==&amp;gt;discord Discord displays a link to the JadeBot discord server.
 Help You complete the cycle of stupidity, as you arrive at the very command that brought you here.</description>
