@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JadeBot&#39;s JadeDocs</title>
-    <link>www.example.com/</link>
+    <link>/</link>
     <description>Recent content on JadeBot&#39;s JadeDocs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jul 2019 12:00:10 -0500</lastBuildDate>
     
-	<atom:link href="www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wiki</title>
-      <link>www.example.com/docs/wiki/</link>
+      <link>/docs/wiki/</link>
       <pubDate>Tue, 23 Jul 2019 12:00:10 -0500</pubDate>
       
-      <guid>www.example.com/docs/wiki/</guid>
+      <guid>/docs/wiki/</guid>
       <description>Summary Wiki searches for articles on the MSPA Wiki.
 Usage Default wiki JadeBot needs an input to read a wiki article.
 wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to the article.</description>
@@ -24,10 +24,10 @@ wiki jade harley JadeBot will return a 1 paragraph summary as well as a link to 
     
     <item>
       <title>Avatar</title>
-      <link>www.example.com/docs/avatar/</link>
+      <link>/docs/avatar/</link>
       <pubDate>Mon, 22 Jul 2019 12:00:10 -0500</pubDate>
       
-      <guid>www.example.com/docs/avatar/</guid>
+      <guid>/docs/avatar/</guid>
       <description>Summary Avatar grabs a picture of a user&amp;rsquo;s avatar. Their actual username and discord tag will display below.
 Usage Default ==&amp;gt;avatar JadeBot displays a picture of your own avatar.
 Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of an @&amp;rsquo;d user&amp;rsquo;s avatar.</description>
@@ -35,10 +35,10 @@ Arguments ==&amp;gt;avatar @nickname JadeBot displays a picture of an @&amp;rsqu
     
     <item>
       <title>Dog</title>
-      <link>www.example.com/docs/dog/</link>
+      <link>/docs/dog/</link>
       <pubDate>Mon, 22 Jul 2019 12:00:10 -0500</pubDate>
       
-      <guid>www.example.com/docs/dog/</guid>
+      <guid>/docs/dog/</guid>
       <description>Summary Dog displays pictures of dogs, which are taken from dog.ceo. You can contribute your own dog here. You can find a full list of dogs here.
 Usage Default ==&amp;gt;dog JadeBot shows a random picture of a dog.
 1 Argument ==&amp;gt;dog generalized_breed JadeBot will show dogs from a generalized category.
